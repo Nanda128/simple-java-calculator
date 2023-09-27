@@ -33,12 +33,13 @@ public class SimpleCalculator {
                 result=firstNumber*secondNumber
                 break;
             case "/":
-                // result=firstNumber/secondNumber
+                result=firstNumber/secondNumber
                 break;
             default:
                 System.out.println("Invalid operation");
                 break;
         }
         return result;
+		System.out.println("if this feature works this message will print.");
     }
 }
